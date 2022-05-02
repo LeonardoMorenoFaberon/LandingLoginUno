@@ -1,0 +1,161 @@
+/* color:  #1F2D48 #703FD6 #B2BCD5 #364761*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #B2BCD5;
+    background-color: #1F2D48;
+    font-family: Poppins;
+}
+:root{
+    --morado:#703FD6;
+}
+
+.container-main{
+    border: 1px solid red;
+    height: 100vh;
+}
+.main-logo{
+    
+}
+
+.container-global{
+    border: 1px solid #ab3;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    height: 90%;
+
+}
+
+.container-global> section{
+    border: 1px solid white;
+    width: 50%;
+    /* height: 90%; */
+}
+.sec-lt{
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+}
+
+.sec-lt >h2{
+    margin-bottom: 6%;
+    padding-top: 22%;
+}
+
+.sec-rt{
+   
+    padding-top: 15%;
+}
+.sec-rt div{
+    background-color: #364761;
+}
+
+.sec-rt__caption h2{
+    background-color: #364761;
+    margin-top: 15%;
+}
+.sec-lt> form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ab3;
+    height: 70%;
+}
+.login{
+    background-color: #703FD6;
+}
+.sec-rt{
+    /* border: 1px solid white; */
+    background-color: #364761;
+    border-radius: 11px;
+}
+form{
+    display: flex;
+}
+
+.containterInputs{
+    margin-top: 1%;
+    border: 1px solid red;
+}
+
+
+form label, label>input, input,  button{
+    width: 53%;
+}
+form label input{
+    width: 100%;
+    padding-left: 10px;
+}
+
+
+.iconosInputs{
+    width: 10px;
+    position:relative;
+    left: -100%;
+}
+.label_checkbox{
+    display: flex;
+    align-items: center;
+    
+}
+.label_checkbox input{
+    width: 10px;
+    padding: 7%;
+}
+.label_checkbox span{
+    padding-left: 2%;
+    /* background-color: red; */
+}
+.sec-rt img{
+    width: 100px;
+}
+
+.sec-rt__ctn-caption{
+
+}
+/* 
+.inputs{
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sc-r interno iiiiiiiiiiiiiiiiiiiii*/
+.inputs{
+
+}
+
+    .box{
+
+    }
+
+    .login{
+
+    }
+
+    .google{
+
+    }
+/* sc-r interno fffffffffffffffffffffffff*/
