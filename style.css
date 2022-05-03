@@ -13,7 +13,7 @@
 }
 
 .container-main{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100vh;
 }
 .main-logo{
@@ -21,7 +21,7 @@
 }
 
 .container-global{
-    border: 1px solid #ab3;
+    /* border: 1px solid #ab3; */
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -33,9 +33,8 @@
 }
 
 .container-global> section{
-    border: 1px solid white;
     width: 50%;
-    /* height: 90%; */
+    border-radius: 1rem;
 }
 .sec-lt{
    display: flex;
@@ -83,7 +82,7 @@ form{
 .containterInputs{
     width: 100%;
     margin-top: 1%;
-    border: 1px solid red;
+    border: 1px solid #B2BCD5;
     position: relative;
 }
 .containerSignInput{
