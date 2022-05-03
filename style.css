@@ -48,8 +48,7 @@
     padding-top: 22%;
 }
 
-.sec-rt{
-   
+.sec-rt{   
     padding-top: 15%;
 }
 .sec-rt div{
@@ -64,12 +63,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ab3;
     height: 70%;
 }
 .login{
     background-color: #703FD6;
+    margin-top: 3%;
+    padding: 1%;
 }
+
 .sec-rt{
     /* border: 1px solid white; */
     background-color: #364761;
@@ -80,42 +81,54 @@ form{
 }
 
 .containterInputs{
+    width: 100%;
     margin-top: 1%;
     border: 1px solid red;
+    position: relative;
 }
-
-
+.containerSignInput{
+    width:  53%;
+}
+.containerInputs input{
+    width: 100%;
+}
+input[type=submit]{
+    margin-top: 5%;
+}
 form label, label>input, input,  button{
     width: 53%;
 }
 form label input{
     width: 100%;
-    padding-left: 10px;
+    padding-left: 20px;
 }
-
 
 .iconosInputs{
     width: 10px;
-    position:relative;
-    left: -100%;
+    position: absolute;
+    left: 4px;
+    top: 7px;
 }
 .label_checkbox{
     display: flex;
     align-items: center;
-    
+    background-position: 0 ;
 }
 .label_checkbox input{
-    width: 10px;
+    width: 38px;
     padding: 7%;
 }
 .label_checkbox span{
-    padding-left: 2%;
-    /* background-color: red; */
+    padding-left: 1rem;
+    font-size: 10px;
+    text-align: left;
 }
 .sec-rt img{
     width: 100px;
 }
-
+form label {
+    margin-top: 1rem;
+}
 .sec-rt__ctn-caption{
 
 }
